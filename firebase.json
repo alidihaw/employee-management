@@ -1,0 +1,20 @@
+{
+  "hosting": [
+    {
+      "public": "./dist/employmentmanagement/browser",
+      "target": "project-management-6b5f8",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "frameworksBackend": {}
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import 'styles/splashscreen.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    overflow: auto !important;
+    height: 100%;
+    width: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+

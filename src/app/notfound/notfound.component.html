@@ -1,0 +1,13 @@
+<div class="flex flex-col items-center justify-center container-full p-4">
+    <img [src]="'assets/icons/notfound.svg'" class="notfound--img">
+     <div class="mt-6 text-2xl xl:text-4xl">
+        We are sorry
+     </div>
+     <div class="mt-4 text-md xl:text-lg">
+        There is no page found.
+     </div>
+
+     <button type="submit" class="btn var--squared var--large var--dark mt-4" [style.min-width.px]="150" (click)="goBack()">
+         Back
+   </button>
+</div>

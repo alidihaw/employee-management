@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "project-management-6b5f8"
+  },
+  "targets": {
+    "project-management-6b5f8": {
+      "hosting": {
+        "project-management-6b5f8": [
+          "project-management-6b5f8"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
